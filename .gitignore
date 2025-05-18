@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Database
+*.db
+
+# Project specific
+chat_history.db
+daily_experience.db
+*.jsonl 
+.env
+
+# Vector DB
+chat_embeddings.index
+message_mapping.json
