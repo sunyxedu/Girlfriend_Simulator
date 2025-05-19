@@ -168,7 +168,7 @@ class ChatBot:
                             for news in news_list:
                                 news_context += f"- {news['title']}\n"
                 else:
-                    news_list = fetch_news("热点")
+                    news_list = fetch_news("hot topics")
                     if news_list:
                         news_context = "Today's hot news:\n"
                         for news in news_list:
